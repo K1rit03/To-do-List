@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Libre Baskerville", serif;
+    outline: none;
+}
+
+
+
+
+body{
+    background:url("/img/69112adca651cb13fdbb05587b578764.jpg")
+}
+
+
+
+.container{
+    background-color: #333333;
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 100px auto  0;
+}
+.input_task{
+    border: none;
+    border-radius: 5%;
+    width:300px ;
+    height: 40px;
+    padding-left: 10px ;
+}
+.button_task{
+    border: none;
+    border-radius:5px ;
+    height: 40px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 17px;
+    padding: 0 15px;
+    margin-left: 40px;
+    cursor: pointer;
+    font-weight: 700;
+    
+}
+.button_task:hover{
+    opacity: 0.8;
+}
+.button_task:active{
+    opacity: 0.6;
+}
+
+.list-task{
+    width: 100%;
+    list-style: none;
+    margin-top: 40px;
+}
+.task{
+    background-color: #FFA500;
+    box-shadow: 1px 4px 10px rgba(0,0,0,0.2);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+    
+}
+
+
+img{
+    height: 25px;
+    opacity: 0;
+    transition: opacity 0.5s ease ease-in-out;
+
+}
+.task:hover img {
+    opacity: 1;
+}
+.done{
+    background-color: #8fac55;
+    text-decoration: line-through;
+}
