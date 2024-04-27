@@ -25,6 +25,6 @@ Contribuições são bem-vindas! Se você encontrar algum problema ou tiver suge
 
 ## Licença
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
+
 
 ![image](https://github.com/K1rit03/To-do-List/assets/80282965/b3fbfc67-f673-4396-a008-90a6f5c12d1c)
